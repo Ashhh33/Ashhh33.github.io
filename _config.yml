@@ -36,6 +36,11 @@ minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-include-cache
 
 
 author:
