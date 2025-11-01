@@ -28,13 +28,22 @@ twitter_username: Ashhh33
 github_username:  Ashhh33
 
 timezone: Australia/Melbourne
-lang: en-EN
+lang: en-AU
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+
+author:
+  name     : "Flora Gan"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "Sic itur ad astra"
+  location : "Somewhere, AU"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
