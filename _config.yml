@@ -44,7 +44,7 @@ plugins:
   - jekyll-include-cache
 
 remote_theme: mmistakes/minimal-mistakes
-theme: minimal-mistakes-jekyll
+# theme: minimal-mistakes-jekyll
 
 author:
   name     : "Flora Gan"
