@@ -43,7 +43,7 @@ plugins:
   - jekyll-gist
   - jekyll-include-cache
 
-remote_theme: minimal-mistakes-jekyll
+remote_theme: benbalter/retlab
 
 author:
   name     : "Flora Gan"
