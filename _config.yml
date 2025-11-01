@@ -43,7 +43,7 @@ plugins:
   - jekyll-gist
   - jekyll-include-cache
 
-remote_theme: benbalter/retlab
+remote_theme: mmistakes/minimal-mistakes
 theme: minimal-mistakes-jekyll
 
 author:
