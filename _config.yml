@@ -73,6 +73,8 @@ author:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+include: ["_pages"]
+
 ## Front Matter Defaults
 defaults:
   # _posts
@@ -86,4 +88,18 @@ defaults:
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Portfolio
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 
