@@ -72,3 +72,18 @@ author:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+## Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
