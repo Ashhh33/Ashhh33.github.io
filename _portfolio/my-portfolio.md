@@ -23,10 +23,6 @@ sidebar:
 #     alt: "placeholder image 3"
 ---
 
-Based on my search through your chat history, here's a funnier, first-person bio for your personal website:
-
----
-
 Hi, I'm **Flora Gan**, and I'm a data scientist who somehow convinced people that staring at matrices all day counts as a real job.
 
 I have a Master's in Data Science with a focus on AI from the University of Melbourne, plus a physics degree that I mostly use to sound intimidating at parties. (Just kidding—I don't go to parties. I prefer one-on-one conversations where I can properly interrogate... I mean, get to know people.)
