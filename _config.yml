@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Flora Gan"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Sic itur ad astra."
   location         : "Somewhere, AU"
   email            :
   links:
@@ -312,11 +312,26 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  recipes:
+    output: true
+    permalink: /:collection/:path/
+  pets:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -345,18 +360,17 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "docs"
-  # _recipes
+  # # _recipes
+  # - scope:
+  #     path: ""
+  #     type: recipes
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
   - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
+      path: "_portfolio"
       type: portfolio
     values:
       layout: single
