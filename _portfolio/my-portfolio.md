@@ -6,7 +6,7 @@ excerpt: ""
 #   teaser: assets/images/unsplash-gallery-image-1-th.jpg
 sidebar:
   - title: "Role"
-    image: http://placehold.it/350x250
+    # image: http://placehold.it/350x250
     image_alt: "logo"
     text: "Data Scienctist"
   - title: "Responsibilities"
