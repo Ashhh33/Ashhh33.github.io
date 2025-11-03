@@ -2,6 +2,13 @@
 permalink: /about/
 title: "About Me"
 excerpt: "I'm just a boring coder"
+sidebar:
+  - title: "Role"
+    # image: http://placehold.it/350x250
+    image_alt: "logo"
+    text: "Data Scienctist"
+  - title: "Responsibilities"
+    text: "Pray for models to learn."
 # layouts_gallery:
 #   - url: /assets/images/mm-layout-splash.png
 #     image_path: /assets/images/mm-layout-splash.png
